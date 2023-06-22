@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Gothic+A1:wght@300&display=swap');
+
+body {
+    margin: 30px;
+    font-family: 'Gothic A1', sans-serif;
+}
+.container{
+border-radius: 25px;
+
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.colored-text {
+    color: #f5ff3b;
+}
+
+.nav .left-links {
+    margin-left: 7%;
+    margin-right: 9%;
+}
+
+.nav .right-links {
+    margin-left: 2%;
+}
+.fa-sun{
+    cursor: pointer;
+    display: block;
+    /* color: black; */
+}
+.fa-moon {
+    display: none;
+    cursor: pointer;
+}
+
+
+.head {
+    display: flex;
+}
+
+.stage-area h1 {
+    font-size: 65px;
+    margin-left: 5%;
+    font-family: 'Contrail One', cursive;
+
+}
+
+.stage-area img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 25%;
+    height: 25%;
+}
+
+.stage {
+    display: flex;
+}
+
+.stage-area p,
+.link {
+    font-size: smaller;
+    margin-top: 20%;
+    margin-left: 35%;
+    margin-right: 15%;
+}
+
+.link {
+    font-family: 'Contrail One', cursive;
+}
+
+.right-foot {
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.right-foot img {
+    border-radius: 25px;
+    width: 60%;
+    margin-left: 0%;
+    margin-top: 25%;
+}
+
+#joining-button {
+    font-family: 'Contrail One', cursive;
+    width: 40%;
+    /* color: #232407; */
+    padding: 3%;
+    border-radius: 25px;
+    border: transparent;
+    /* background-color: #f5ff3b; */
+    margin-top: 10%;
+}
+
+.fa-arrow-up-long {
+    margin-left: 5%;
+    color: #f5ff3b;
+    transform: rotate(45deg);
+}
+
+.below-stage {
+    display: block;
+}
+.left-subcolumn{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0%;
+    background-color: #232407;
+    border-radius: 25px;
+    color: #d5ff3b;
+}
+.show-values {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.show-area {
+    padding: 10% 30% 10% 30%;
+    margin-left: 2.4%;
+    border: 1px rgb(88, 88, 88) solid;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    /* background-color: #232407; */
+    text-align: left;
+    position: relative;
+}
+
+.show-values img {
+    position: absolute;
+    width: 50px;
+    top: 38%;
+    left: 78.2%;
+    display: inline-block;
+    z-index: 1;
+}
+
+.show-values select {
+    /* width: 200%; */
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 900;
+    border: none;
+    /* background-color: #232407; */
+    /* color: rgb(88, 88, 88); */
+}
+.trade-card{
+    display: block;
+    padding: 2% 0% 15% 2%;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 25px;
+    /* background-color: #d5ff3b; */
+    width: 45%;
+    /* color: black; */
+    background-image: url(src/graph.png);
+}
+.trade-card img{
+    width: 10%;
+    border-radius: 50%;
+    /* border: solid 2px black; */
+}
+#bitcoin-logo{
+    position: relative;
+    left: 55%;
+}
+#ethrteum-logo{
+    position: relative;
+    bottom: -25px;
+    background-color: #e09200;
+}
+/* dark mode */
+
+.container.dark {
+    color: white;
+    background-color: #232407;
+
+}
+.colored-text.dark {
+    color: #f5ff3b;
+}
+
+#joining-button.dark {
+    color: #232407;
+    background-color: #f5ff3b;
+}
+
+.fa-arrow-up-long.dark {
+    color: #f5ff3b;
+}
+
+.show-area.dark {
+    border-color:rgb(88, 88, 88);
+}
+
+.show-values.dark select {
+    background-color: #232407;
+    color: rgb(88, 88, 88);
+}
+.trade-card.dark{
+    background-color: #d5ff3b;
+    color: black;
+}
+.trade-card.dark img{
+    border-color:black;
+}
+
+/* bright mode */
+.container.bright {
+    color: rgb(19, 16, 16);
+    background-color: #d9db96;
+
+}
+.colored-text.bright {
+    color: #000000;
+}
+
+#joining-button.bright {
+    color: #232407;
+    background-color: #f5ff3b;
+}
+
+.fa-arrow-up-long..bright {
+    color: #f5ff3b;
+}
+
+.show-area.bright {
+    border-color: rgb(88, 88, 88);
+}
+
+.show-values.bright select {
+    background-color: #232407;
+    color: rgb(88, 88, 88);
+}
+.trade-card.bright{
+
+    background-color: #d5ff3b;
+    color: black;
+}
+.trade-card.bright img{
+    border-color:black;
+}
